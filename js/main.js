@@ -91,7 +91,7 @@
     }
   })
 
-  var initJson =  ''
+  var initJson =  '{}'
 
   // 主题 [key, String, Number, Boolean, Null, link-link, link-hover]
   let themes = [
