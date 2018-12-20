@@ -351,6 +351,9 @@
           }
         })
       }
+    },
+    mounted(){
+      $(".pre-json").setTextareaCount();
     }
   })
 })()

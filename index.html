@@ -30,7 +30,7 @@
       
       <div :class="'side-left side-view-' + baseview">
         <div class="left-panel">
-          <textarea  v-model="jsoncon"></textarea>  
+          <textarea class="pre-json" v-model="jsoncon"></textarea>  
           <div class="label" v-show="baseview == 'diff'">原 JSON</div>       
         </div>
         <div  class="left-panel"  v-show="baseview == 'diff'">
@@ -280,6 +280,7 @@
 
     <script src="js/vue.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/auto-line-number.js"></script>
     <script src="js/jsonlint.js"></script>
     <script src="js/parse.js"></script>
     <script src="js/editor.js"></script>
@@ -290,7 +291,7 @@
     <script src="js/clipboard.min.js"></script>
     <script src="js/helper.js"></script>
     <script src="js/main.js"></script>
-    
+   
     <!--访问统计  请换成自己的-->
     <script>
       var _hmt = _hmt || [];
