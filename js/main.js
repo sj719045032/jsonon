@@ -91,14 +91,7 @@
     }
   })
 
-  var initJson =  '{\n\
-      "name": "Json on",\n\
-      "description": "一个简洁的在线 JSON 查看器",\n\
-      "open source": {\n\
-        "是否开源": true,\n\
-        "GitHub": "https://github.com/bimohxh/jsonon"\n\
-      }\n\
-  }'
+  var initJson =  ''
 
   // 主题 [key, String, Number, Boolean, Null, link-link, link-hover]
   let themes = [
